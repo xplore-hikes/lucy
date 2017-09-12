@@ -70,6 +70,7 @@ p{
     border-radius: 100%;
     margin: 0px auto 50px;
 }
+
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH 		Overlay style
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
@@ -80,7 +81,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(0, 128, 1));
 }
 .overlay .overlay-close {
     width: 50px;
@@ -183,8 +184,9 @@ HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
 	height: 100vh;
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
-    padding: 45px 0px;
+	background: url('../img/xplore_cover.png');
+	background-size: cover;
+  padding: 45px 0px;
 }
 #logo {
 	font-size: 80px;
@@ -209,7 +211,7 @@ a#logo:hover{
 }
 .fixed {
     position: fixed;
-    background: rgb(87, 160, 255);
+    background: lightgreen;
     top: 0;
     z-index: 99;
     transition: 1s;
@@ -901,10 +903,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height: 50px;
     border-radius: 0px;
     color: white;
-    background-color: rgb(87, 160, 255);
+    background-color: lightgreen;
     padding: 15px 10px;
     margin: 10px 30px;
-    border-color: rgb(87, 160, 255);
+    /*border-color: green;*/
     margin-bottom: 45px;
     text-transform: uppercase;
     font-weight: 700;
@@ -928,7 +930,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #footer {
     /*background: linear-gradient(180deg, rgb(0, 190, 111), rgb(87, 160, 255));*/
-    background-color: #39c;
+    background-color: lightgreen;
     color:white;
     padding:40px 0;
 }
@@ -1046,7 +1048,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
         border-color: #9d9d9d;
     }
     #contact .col-sm-6:hover i{
-        background-color: #39c;
+        background-color: rgb(81, 255, 182);
         color: #fff;
         border-color: #fff;
     }
