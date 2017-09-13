@@ -210,7 +210,6 @@ a#logo:hover{
     width: 100%;
 }
 .fixed {
-    position: fixed;
     background: lightgreen;
     top: 0;
     z-index: 99;
@@ -1095,7 +1094,8 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
         margin-top: -20px;
     }
 	#logo{
-		font-size: 56px;
+		font-size: 3em;
+		margin-top: 10px;
 		text-align: left;
 	}
 	.btn-download{
