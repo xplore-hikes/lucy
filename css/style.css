@@ -184,7 +184,7 @@ HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
 	height: 100vh;
-	background: url('../img/xplore_cover.png');
+	background: url('../img/bg_xplore.png');
 	background-size: cover;
   padding: 45px 0px;
 }
@@ -881,7 +881,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     float: left;
 }
 .contact-item:hover i{
-    background-color: #39c;
+    background-color: rgb(81, 255, 182);
     transition: .8s;
     border: 2px solid #e7e7e7 !important;
     /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
