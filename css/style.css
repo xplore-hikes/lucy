@@ -188,3 +188,7 @@ ul.social-icons li{margin:0px;}
 @media (max-width:320px){.overlay nav ul{margin-left:-20px;}
 .overlay .overlay-close{right:50px;}
 }
+
+@media (min-width:800px) {
+  .centered { display: flex;justify-content:center;}
+}
