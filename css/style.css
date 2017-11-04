@@ -28,6 +28,7 @@ p{font-size:16px;}
 .header{height:100vh;background:url('../img/bg_xplore.png');background-size:cover;padding:45px 0px;}
 #logo{font-size:80px;letter-spacing:10px;font-weight:100;color:white;display:inline-block;padding:0px;float:left;}
 a#logo:hover{text-decoration:none;}
+.xplore-logo { width: 100px !important; margin-top:12px !important;}
 .strong{font-weight:400;}
 .header img{width:100%;}
 .top-bar{width:100%;}
@@ -155,7 +156,7 @@ ul.social-icons li a{display:block;}
 .overlay ul li{min-height:34px;}
 }
 @media (max-width:966px){.header{height:100%;}
-.header img{display:none;}
+.mobile-phone { display: none; }
 #.header>.top-bar>.container>.navigation>.row>.col-xs-10>.alwaysDisplay {display:block;}
 .img-hover{left:0;right:0;}
 #gallery h2{display:block;color:black;text-align:center;}
@@ -170,6 +171,7 @@ h3{font-weight:500 !important;}
 @media (max-width:480px){h2{font-size:35px;}
 .wrapper{padding:35px 0px;}
 .header{text-align:center;padding:10px 0px;}
+.xplore-logo { width: 50px !important; margin-top: 20px !important;margin-right: 50px !important;}
 #.header>.top-bar>.container>.navigation>.row>.col-xs-10>.alwaysDisplay {width:20%;}
 .banner-text{margin-top:50px;}
 .btn.btn-download{margin-right:5px;width:133px;margin-bottom:30px;}
@@ -189,6 +191,16 @@ ul.social-icons li{margin:0px;}
 }
 @media (max-width:320px){.overlay nav ul{margin-left:-20px;}
 .overlay .overlay-close{right:50px;}
+.xplore-logo {display: none;}
+}
+
+@media (max-width: 380px) {
+  .xplore-logo { width: 45px !important; margin-top: 21px !important;margin-right: 10px !important;}
+}
+
+@media (min-width:390px) and (max-width:399px){.overlay nav ul{margin-left:-20px;}
+.overlay .overlay-close{right:50px;}
+.xplore-logo { width: 50px !important; margin-right: 15px !important; margin-top: 20px !important;}
 }
 
 @media (min-width:800px) {
