@@ -25,7 +25,7 @@ p{font-size:16px;}
 .overlay-hugeinc.open nav ul{opacity:1;-webkit-transform:rotateX(0deg);transform:rotateX(0deg);}
 .overlay-hugeinc.close nav ul{-webkit-transform:translateY(25%) rotateX(-35deg);transform:translateY(25%) rotateX(-35deg);}
 #preloader{position:fixed;left:0;top:0;z-index:99999999999;width:100%;height:100%;overflow:visible;background:#fff url('../img/Intersection.gif') no-repeat center center;background-size:100px 100px;}
-.header{height:100vh;background:url('../img/bg_xplore.png');background-size:cover;padding:45px 0px;}
+.header{height:100vh;background:url('../img/bg_xplore.jpg');background-size:cover;padding:45px 0px;}
 #logo{font-size:80px;letter-spacing:10px;font-weight:100;color:white;display:inline-block;padding:0px;float:left;}
 a#logo:hover{text-decoration:none;}
 .xplore-logo { width: 100px !important; margin-top:12px !important;}
@@ -109,8 +109,6 @@ a.next{float:right;margin-right:10px;padding-left:12px;}
 #team h2{color:#333;}
 #team img{width:200px;margin-bottom:20px;position:relative;display:block;margin:0px auto;}
 .img-hover{display:none;width:200px;height:213px;position:absolute;margin:0px auto;}
-#team .icon-m{position:absolute;width:30px;right:0px;bottom:0px;}
-#team .icon-p{position:absolute;width:30px;top:185px;left:185px;}
 #team .col-md-2:hover .img-hover{display:block;background:rgba(0, 0, 0, .7);top:0;cursor:pointer;margin:0px auto;}
 #team .col-md-2:hover .icon-m{display:block;}
 ul.social-icon{padding:0px;margin-top:95px;}
